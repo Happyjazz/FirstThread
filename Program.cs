@@ -27,6 +27,9 @@ namespace FirstThread
             t2.Start();
             t3.Start();
             t4.Start();
+
+            t1.Join();
+            Console.WriteLine("...Og slut!");
         }
     }
 }
